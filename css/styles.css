@@ -116,20 +116,28 @@ body {
     
     
     /*Effective-solutions-section*/
-    .hero-section {
-        background-color:#2F303A;
+    .hero-section {            
         text-align: center;
         padding-top: 200px;
-        padding-bottom: 200px;
-        
+        padding-bottom: 200px;           
     }
+    .hero-section{
+        background-image: linear-gradient( to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+    );
+    background-image: url(../images/hero-img.jpg); 
+    background-repeat: no-repeat;       
+    background-position: center; 
+    }
+
     .hero-title{
         font-weight: 900;        
         font-size: 44px;
         line-height: 1.36;        
         color:var(--two) ;    
         letter-spacing: 0.06em;
-        text-transform: uppercase;            
+        text-transform: uppercase;   
     }
     .hero-button{
         font-family: inherit;
@@ -176,6 +184,20 @@ body {
         margin-top: 30px;
         margin-left: 30px;
           }
+          .features-item{            
+            width: 270px;
+            height: 120px;
+            background-color: 
+            #F5F4FA;
+            border-radius: 4px;
+            margin-bottom: 30px;
+        }
+        .features-icon{
+            content: "1";
+            width: 70px;
+            height: 70px;
+            fill: var(--full);
+        }
      .features-title{
             font-weight: 700;
             font-size: 14px;
@@ -308,6 +330,11 @@ margin-left: -30px;
     font-size: 16px;
     line-height: 1.88;    
 }
+    /* regular-customers */
+ .regular-customers-list{
+     display: flex;
+
+ }
 
 /*footer-section*/
 footer{
@@ -362,3 +389,4 @@ footer{
     margin-bottom: 9px;
 }
 
+/* ттни ,? */
