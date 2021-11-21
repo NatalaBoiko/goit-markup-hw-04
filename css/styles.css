@@ -405,6 +405,8 @@ fill: #AFB1B8;
 
 /*footer-section*/
 footer{
+    display: flex;
+flex-wrap: wrap;
      background-color:#2F303A ;
      padding-top: 60px;
      padding-bottom: 60px; 
@@ -456,4 +458,4 @@ footer{
     margin-bottom: 9px;
 }
 
-/* ттни ,? */
+/* footer-social-thumb */
