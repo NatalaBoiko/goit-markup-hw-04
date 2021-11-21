@@ -111,15 +111,25 @@ body {
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;                
-    }         
+    }    
+  
+    .header-icon{     
+        width: 16px;
+        height: 12px;
+        margin-right: 10px;     
+        fill: var(--light);
+           }
+        .header-icon:hover,
+        .header-icon:focus{
+               fill: var(--one);
+           }
 
-    
-    
+ 
     /*Effective-solutions-section*/
     .hero-section {            
         text-align: center;
         padding-top: 200px;
-        padding-bottom: 200px;           
+        padding-bottom:200px;           
     }
     .hero-section{
         background-image: linear-gradient( to right,
@@ -191,12 +201,11 @@ body {
             #F5F4FA;
             border-radius: 4px;
             margin-bottom: 30px;
+            padding: 25px 100px;
         }
         .features-icon{
-            content: "1";
             width: 70px;
             height: 70px;
-            fill: var(--full);
         }
      .features-title{
             font-weight: 700;
