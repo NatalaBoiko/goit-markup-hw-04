@@ -407,13 +407,14 @@ fill: #AFB1B8;
  fill: var(--one);
  }
 
+
 /*footer-section*/
+
 .footer{
      background-color:#2F303A ;
      padding-top: 60px;
      padding-bottom: 60px; 
-     display: flex;
-     
+     display: flex;     
     }
 .footer-logo {
     display: block;
@@ -466,10 +467,6 @@ fill: #AFB1B8;
 
 /* footer-social-thumb */
 
-
-.footer-social-thumb{
-    
-}
 .footer-social-title{
     text-transform: uppercase;
     color: var(--two);
