@@ -119,11 +119,10 @@ body {
         margin-right: 10px;     
         fill: var(--light);
            }
-        .header-icon:hover,
-        .header-icon:focus{
-               fill: var(--one);
-           }
-
+ a.contacts:focus .header-icon,
+ a.contacts:hover .header-icon {
+     fill: var(--one);
+ }
  
     /*Effective-solutions-section*/
     .hero-section {            
@@ -272,7 +271,36 @@ body {
     line-height: 1.19;
     color: var(--light);
 }
+.social-list{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
 
+.social-item:not(:first-child){
+    margin-left: 10px;
+}
+.social-linc{ 
+    width: 44px;
+    height: 44px;    
+    border-radius: 50%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-linc:hover ,
+.social-linc:focus {
+background-color: var(--one);
+}
+.social-linc:hover .icon-social,
+.social-linc:focus .icon-social{
+fill: var(--two);
+}
+.icon-social{
+    width: 20px;
+    height: 20px;
+    fill: var(--light);
+}
 
 /*portfolio-section*/
 
