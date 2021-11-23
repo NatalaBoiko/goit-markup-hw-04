@@ -413,8 +413,10 @@ fill: #AFB1B8;
 .footer{
      background-color:#2F303A ;
      padding-top: 60px;
-     padding-bottom: 60px; 
-     display: flex;     
+     padding-bottom: 60px;       
+    }
+    .container-footer{
+        display: flex;
     }
 .footer-logo {
     display: block;
@@ -463,6 +465,9 @@ fill: #AFB1B8;
 .footer-contacts-list:not(:last-child){
     margin-bottom: 9px;
 }
+.footer-main{
+    margin-right: 70px;
+}
 
 
 /* footer-social-thumb */
@@ -496,3 +501,4 @@ fill: #AFB1B8;
     height: 20px;
 fill: var(--two);
 }
+
